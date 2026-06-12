@@ -26,3 +26,6 @@ else:
                 print("true")   
             else:
                 print("false")
+
+
+ #talked about the keywords in python and how to use them in the right way
