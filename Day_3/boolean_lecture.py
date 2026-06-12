@@ -7,6 +7,11 @@ if a > b and b > c:
 else:
     print("false")
 
+    if a<b and b>c:
+        print("true")
+    else:     
+        print("false")
+
     if a > b or b > c:
         print("true")
     else:
