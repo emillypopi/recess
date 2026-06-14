@@ -14,3 +14,15 @@ print(type(data))
 
 b = dict(name="Alice", age=30, city="New York")
 print(b)
+
+#accessing dictionary items
+print(b["name"])
+
+#using get method
+print(b.get["age"])
+
+#remving
+del b["city"]
+
+num = b.pop("age")
+print(num)
