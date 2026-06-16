@@ -1,4 +1,15 @@
+import random
+
 print("Welcome to the World cup 2026 Winner Simulator!")
+
+contenders = [
+    "team a",
+    "team b",
+    "team c",
+    "team d",
+    "team e",
+    "team f",
+]
 
 while True:
     print("\n---Main Menu---")
@@ -20,18 +31,17 @@ while True:
         country = input("Enter the name of the country you think will win: ").strip()
         print(f"You have selected {country} as the winner of the World Cup 2026!")
 
-        if country_input.lower() in contenders:
-            winner = random.choice([country_input, "another contender"])
+        if country.lower() in contenders:
+            winner = random.choice([country, "another contender"])
 
-            if winner == country_input:
-                print(f"Congratulations! {country_input} has won the World Cup 2026!")
+            if winner == country:
+                print(f"Congratulations! {country} has won the World Cup 2026!")
                 print("ending simulator...")
                 break
             else:
-                print(f"Unfortunately, {country_input} did not win. The winner is {winner}.")
+                print(f"Unfortunately, {country} did not win. The winner is {winner}.")
                 print("Try again for the next World Cup!")
         else:
-            print(f"{country_input} is not a recognized contender for the World Cup 2026. Please try again.")
+            print(f"{country} is not a recognized contender for the World Cup 2026. Please try again.")
     else:
         print("Invalid choice. Please select a valid option (1-3).")
-        
