@@ -1,0 +1,2 @@
+c:\wamp64\www\recess\myenv\Scripts\python.exe c:/wamp64/www/recess/Day_9/realwrld.py
+2c:\wamp64\www\recess\myenv\Scripts\python.exe c:/wamp64/www/recess/Day_9/realwrld.py
